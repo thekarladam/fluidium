@@ -1,0 +1,159 @@
+            html, body {
+                margin:0; padding:0;
+                -webkit-user-select:text;
+                -webkit-user-drag:none;
+            }
+
+            a:link, a:visited, a:hover {
+                -webkit-user-drag:none;
+            }
+
+            img {
+                -webkit-user-drag:none;
+            }
+
+            .status {
+                position:relative;
+                min-width:305px; min-height:56px; 
+                overflow-x:hidden;
+                margin:0; padding:0;
+                border-bottom:1px solid silver;
+                font-family:"Lucida Grande", Helvetica, sans-serif;
+            }
+
+            .normalStatus {
+                background:-webkit-gradient(linear, center top, center bottom, from(rgba(200, 200, 200, .1)), to(rgba(200, 200, 200, .4)));
+            }
+
+            .normalStatus:hover {
+                background:-webkit-gradient(linear, center top, center bottom, from(white), to(rgba(200, 200, 200, .2)));
+            }
+
+            .writtenByMe {
+    //            background:-webkit-gradient(linear, center top, center bottom, from(rgba(214, 205, 192, .2)), to(rgba(214, 205, 192, .6)));
+                border-bottom:1px solid #999;
+                background:-webkit-gradient(linear, center top, center bottom, from(rgba(186, 179, 166, .4)), to(rgba(186, 179, 166, .8)));
+            }
+
+            .writtenByMe:hover {
+                background:-webkit-gradient(linear, center top, center bottom, from(rgba(186, 179, 166, .1)), to(rgba(186, 179, 166, .5)));
+            }
+
+            .doesMentionMe {
+    //            background:-webkit-gradient(linear, center top, center bottom, from(rgba(128, 170, 177, .05)), to(rgba(0, 99, 248, .2)));
+                background:-webkit-gradient(linear, center top, center bottom, from(rgba(0, 68, 143, .13)), to(rgba(0, 68, 143, .21)));
+                border-bottom:1px solid #bbb;
+            }
+
+            .doesMentionMe:hover {
+                background:-webkit-gradient(linear, center top, center bottom, from(rgba(0, 68, 143, .1)), to(rgba(0, 68, 143, .16)));
+            }
+
+            .avatar {
+                position:absolute;
+                left:6px; top:4px;
+                margin:0 4px 0 0; 
+            }
+
+            .avatar img {
+                -webkit-border-radius:5px;
+                width:48px; height:48px;
+            }
+
+            .avatar img:hover {
+               // -webkit-box-shadow:gray 0 0 6px;
+            }
+
+            .user {
+                position:absolute;
+                left:60px; top:4px;
+                font-size:12px;
+                font-weight:bold;
+                -webkit-user-select:text;
+            }
+
+            .user a:link, .user a:visited {
+                text-decoration:none;
+                color:black;
+            }
+
+            .user a:hover {
+                text-shadow:rgba(0, 99, 248, .4) 0 0 3px;
+            }
+
+            .date {
+                position:absolute;
+                right:6px; top:8px;
+                font-size:9px;
+                color:gray;
+                -webkit-user-select:none;
+            }
+
+            .text {
+                padding:24px 6px 6px 60px;
+                font-size:12px;
+            }
+
+            .text a.url:link, .text a.hashtag:link, .text a.username:link {
+                text-decoration:none;
+                margin:-1px -3px; padding:1px 3px;
+                color:rgb(0, 99, 248);
+            }
+
+            .text a.url:visited, .text a.hashtag:visited, .text a.username:visited {
+                text-decoration:none;
+                color:rgb(0, 99, 248);
+            }
+
+            .text a.url:hover, .status .text a.hashtag:hover, .text a.username:hover, .text a.username:hover .at {
+                background:#aaa;
+                color:white !important;
+                -webkit-border-radius:4px;
+            }
+
+            .text a.hashtag:link, .text a.hashtag:visited {
+                color:gray;
+            }
+
+            .text a.username:link, .text a.username:visited, .text a.username:hover {
+            }
+
+            .text a.username:link .at, .text a.username:visited .at {
+                color:black;
+            }
+
+            #moreButton {
+                padding:12px 12px 20px;
+                text-align:center;
+            }
+
+            #moreButton a:link, #moreButton a:visited, #moreButton a:active {
+                -webkit-appearance:button;
+                display:block;
+                padding:6px;
+                text-decoration:none;
+                color:black;
+                font:13px "Lucida Grande", helvetica;
+            }
+
+            a.inReplyTo:link, a.inReplyTo:visited {
+                float:right;
+                padding:2px 8px;
+                margin:5px 0px 5px 5px;
+                border:1px solid #999;
+                -webkit-border-radius:10px;
+                background:-webkit-gradient(linear, center top, center bottom, from(#eee), to(#ccc));
+                text-decoration:none;
+                color:#777;
+                font-size:9px;
+            }
+
+            a.inReplyTo:hover {
+                color:#666;
+                background:-webkit-gradient(linear, center top, center bottom, from(#ddd), to(#bbb));
+            }
+
+            a.inReplyTo:active {
+                color:#efefef;
+                background:-webkit-gradient(linear, center top, center bottom, from(#ccc), to(#aaa));
+            }

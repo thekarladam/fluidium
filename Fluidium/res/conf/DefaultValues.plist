@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Browser -->
+    <key>FURecentURLs</key>
+    <array/>
+    <key>FUMatchingURLPatterns</key>
+    <array/>
+
+    <!-- WebKit -->
+    <!-- <key>WebIconDatabaseDirectoryDefaults</key>
+    <string>~/Library/Application Support/Fluidium/IconDatabase</string> -->
+    <key>WebKitDeveloperExtras</key>
+    <true/>
+    <key>FUContinuousSpellCheckingEnabled</key>
+    <key>1</key>
+    <key>FUZoomTextOnly</key>
+    <integer>0</integer>
+
+    <!-- UI -->
+    <key>FUBookmarkBarShown</key>
+    <integer>0</integer>
+    <key>FUStatusBarShown</key>
+    <integer>1</integer>
+    <key>FUTabBarHiddenAlways</key>
+    <integer>0</integer>
+    <key>FUWindowFrameString</key>
+	<string>{{130, 50}, {1020, 700}}</string>
+    <key>FUWindowScreenIndex</key>
+    <integer>0</integer>
+    <key>FUPlugInDrawerContentSizeString</key>
+	<string>{320, 160}</string>
+
+    <!-- General -->
+    <key>FUNewWindowsOpenWith</key>
+    <integer>0</integer>
+    <key>FUHomeURLString</key>
+    <string>http://google.com</string>
+    <key>FUDownloadDirPath</key>
+    <string>~/Downloads</string>
+    
+    <!-- Appearance -->
+    <key>FULoadsImagesAutomatically</key>
+    <integer>1</integer>
+
+    <!-- Behavior -->
+    <key>FUSpacesBehavior</key>
+    <integer>0</integer>
+    <key>FUTargetedClicksCreateTabs</key>
+    <integer>1</integer>
+    <key>FULinksSentToOtherApplicationsOpenInBackground</key>
+    <integer>0</integer>
+    <key>FUOpenLinksFromApplicationsIn</key>
+    <integer>0</integer>
+    <key>FUHideLastClosedWindow</key>
+    <integer>0</integer>
+	<key>FUSessionsEnabled</key>
+	<integer>1</integer>
+
+    <!-- Tabs -->
+    <key>FUTabbedBrowsingEnabled</key>
+    <integer>1</integer>
+    <key>FUSelectNewWindowsOrTabsAsCreated</key>
+    <integer>1</integer>
+    <key>FUTabBarHiddenForSingleTab</key>
+    <integer>1</integer>
+    <key>FUTabBarCellOptimumWidth</key>
+    <integer>175</integer>
+    <key>FUConfirmBeforeClosingMultipleTabsOrWindows</key>
+    <integer>1</integer>
+    
+    <!-- Security -->
+    <key>FUPlugInsEnabled</key>
+    <integer>1</integer>
+    <key>FUJavaEnabled</key>
+    <integer>1</integer>
+    <key>FUJavaScriptEnabled</key>
+    <integer>1</integer>
+    <key>FUJavaScriptCanOpenWindowsAutomatically</key>
+    <integer>0</integer>
+    <key>FUCookieAcceptPolicy</key>
+    <integer>2</integer>
+    
+    <!-- Advanced -->
+    <key>FUAllowBrowsingToAnyDomain</key>
+    <integer>1</integer>
+    <key>FUInvertWhitelist</key>
+    <integer>0</integer>
+    
+    <!-- PlugIns -->
+    <key>FUNumberOfBrowsaPlugIns</key>
+    <integer>2</integer>
+    
+</dict>
+</plist>

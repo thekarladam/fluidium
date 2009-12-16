@@ -1,0 +1,30 @@
+{% for status in statuses %}
+    <div class="status 
+        {% if status.writtenByMe %} 
+            writtenByMe 
+        {% else %} 
+            {% if status.doesMentionMe %} 
+                doesMentionMe 
+            {% else %} 
+                normalStatus 
+            {% /if %}
+        {% /if %}">
+        <div class="avatar">
+            <a href="http://twitter.com/{{status.username}}" onclick="cruz.avatarClicked('{{status.username}}'); return false;">
+                <img src="{{status.avatarURLString}}">
+            </a>
+        </div>
+        <div id="date-{{status.id}}" class="date">
+            {{ status.date }}
+        </div>
+        <div class="user">
+            <a title="nostatus" href="http://twitter.com/{{status.username}}" onclick="cruz.usernameClicked('{{status.username}}'); return false;">{% if displayUsernames %}{{status.username}}{% else %}{{status.name}}{% /if %}</a>
+        </div>
+        <div class="text">
+            {{ status.text }}
+            {% if status.isReply %}
+                <a title="nostatus" class="inReplyTo" href="javascript:cruz.pushThread('{{status.id}}')">in reply to...</a>
+            {% /if %}
+        </div>
+    </div>
+{% /for %}
